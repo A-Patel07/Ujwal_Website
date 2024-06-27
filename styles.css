@@ -114,13 +114,13 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding-top: 20px;
     max-width: 80%; /* Limit the width of the textbox */
 }
 
 .showcase-header{
     color: white;
-    margin-top: 0;
+    margin-top: 20px;
     font-size: 7rem;
 }
 
@@ -333,7 +333,7 @@ a {
     width: 60%;
     margin: auto;
     margin-bottom: 2rem;
-  }
+}
 
 .ui-accordion-header {
     background-color: #f1f1f1;
@@ -525,6 +525,7 @@ a {
     .blog-post {
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
     .blog-short-content {
         align-items: center;
@@ -537,13 +538,23 @@ a {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        width: 100%;
     }
     .card {
         margin: 1rem;
-        width: 60%;
+        width: 90%;
     }
 
     .blog-content {
+        width: 90%;
+    }
+    .ui-accordion {
+        width: 90%;
+    }
+    .form-container {
+        width: 90%;
+    }
+    .mission-text {
         width: 90%;
     }
 }
